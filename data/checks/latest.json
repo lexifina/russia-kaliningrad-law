@@ -1,0 +1,106 @@
+{
+ "generated": "2026-11-24T13:41:49Z",
+ "latest": {
+  "pravo-kaliningrad|russia/kaliningrad/acts": {
+   "attempt": 1,
+   "audit": {
+    "examples": [],
+    "match_neither": 0,
+    "match_new": 2,
+    "match_old": 0,
+    "method": "each sampled entry's own record on the portal (/api/Document?eoNumber=...), its title, number and date signed against the listing's",
+    "sampled": 2
+   },
+   "census": {
+    "checked": 1382,
+    "current": 1370,
+    "gone": 0,
+    "held": 1370,
+    "newest_in_repo": "2026-10-30",
+    "pending": 12,
+    "repo": 1370,
+    "source_in_scope": 1382
+   },
+   "check_id": "ru-pravo-kaliningrad-20261124T133852Z",
+   "commits": {
+    "count": 2,
+    "from": "3b67a513c26a4804c54a77ac927278d53e4e4ca1",
+    "to": "1a83895e61c886722ac66ef34141fb6b72bd7a7c"
+   },
+   "corpus": "russia/kaliningrad/acts",
+   "error": null,
+   "finished": "2026-11-24T13:41:48Z",
+   "flags": [],
+   "gap": 0,
+   "note": "publication.pravo.gov.ru, block region39: 1382 law-type documents listed (every page read); 1370 held here; 12 published since and not yet here; facts only, no law text (the PDF texts are under /File, which robots.txt disallows)",
+   "outcome": "changed",
+   "published": {
+    "added": [
+     "3900202611100001",
+     "3900202611100002",
+     "3900202611100003",
+     "3900202611100004",
+     "3900202611100005",
+     "3900202611100006",
+     "3900202611100007",
+     "3900202611100008",
+     "3900202611100009",
+     "3900202611100010",
+     "3900202611100011",
+     "3900202611100012"
+    ],
+    "changed": [],
+    "removed": []
+   },
+   "requests": 10,
+   "runner": "lawwatch russia (65e3dde363)",
+   "schema": "lexifina-check/1",
+   "seen": {
+    "added": [
+     "3900202611100001",
+     "3900202611100002",
+     "3900202611100003",
+     "3900202611100004",
+     "3900202611100005",
+     "3900202611100006",
+     "3900202611100007",
+     "3900202611100008",
+     "3900202611100009",
+     "3900202611100010",
+     "3900202611100011",
+     "3900202611100012"
+    ],
+    "changed": [],
+    "removed": []
+   },
+   "snapshot": "1382 law-type documents in block region39; newest published 2026-11-10",
+   "source": "pravo-kaliningrad",
+   "started": "2026-11-24T13:38:52Z",
+   "unexplained": 0,
+   "update": {
+    "append": {
+     "commits": 1,
+     "corrections": null,
+     "extended_acts": [
+      "zakony-2026"
+     ],
+     "new_acts": []
+    },
+    "parts": [
+     "95-watch-20261124-001.json"
+    ]
+   },
+   "verify": {
+    "cycle_days": 1,
+    "examples": [],
+    "held": 13,
+    "method": "the portal's whole listing for the subject (read this check, every page) parsed by the builder (ru_catalogue.parse) and compared, publication day by publication day, with the corpus this repository is built from; each year's newest state rendered by the builder (gitlaw_common) against the files at the tip of main",
+    "ok": true,
+    "swept": 13,
+    "versions_checked": 243,
+    "versions_differ": 0
+   }
+  }
+ },
+ "schema": "lexifina-check/1"
+}
